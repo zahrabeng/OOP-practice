@@ -7,7 +7,8 @@
     or thousands of objects.
 
     This is because it creates a copy of the object every time, 
-    which takes up space and memory. 
+    which takes up space and memory if there are functions included within
+    this object. 
 */
 
 function createObject(name, score){
